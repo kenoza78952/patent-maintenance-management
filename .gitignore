@@ -1,0 +1,38 @@
+# Django
+*.log
+db.sqlite3
+/media/
+staticfiles/
+__pycache__/
+*.pyc
+
+# Env
+.env
+.env.*
+
+# Python
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage/
+
+# Excel / data exports (IMPORTANT for you)
+*.xlsx
+*.xls
+*.csv
+
+# Django debug
+django_debug.log
+
+# Migrations safety (optional - ONLY if you want clean reset, otherwise keep)
+# calculator/migrations/__pycache__/
